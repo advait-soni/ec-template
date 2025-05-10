@@ -10,7 +10,7 @@ const items = [
 function Navbar() {
   return (
     <nav className="flex justify-center mt-2">
-      <ul className="flex space-x-40">
+      <ul className="flex space-x-40 bg-red-200 rounded-lg px-5 py-2">
         {items.map((element, ind) => {
           return (
             <NavbarItem
