@@ -3,7 +3,7 @@ function NavbarItem({ itemName, onClick }) {
     <li>
       <button
         onClick={onClick}
-        className="bg-red-200 px-4 py-2 text-yellow-500 rounded hover:bg-blue-200 cursor-pointer"
+        className="cursor-pointer font-mono"
       >
         {itemName}
       </button>
