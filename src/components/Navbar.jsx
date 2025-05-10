@@ -4,12 +4,13 @@ const items = [
   { item: "Home", onClick: () => console.log("home") },
   { item: "About", onClick: () => console.log("about") },
   { item: "Store", onClick: () => console.log("store") },
+  { item: "Contact", onClick: () => console.log("contact") },
 ]
 
 function Navbar() {
   return (
-    <nav className="flex justify-center">
-      <ul className="flex space-x-4">
+    <nav className="flex justify-center mt-2">
+      <ul className="flex space-x-40">
         {items.map((element, ind) => {
           return (
             <NavbarItem
