@@ -1,16 +1,12 @@
-// tailwind.config.js
 module.exports = {
-    purge: [],
-    darkMode: false, 
-    theme: {
-      extend: {
-        fontFamily: {
-            
-        }
+  darkMode: false, 
+  theme: {
+    extend: {
+      colors: {
+        lightGray: "rgb(244, 244, 244)", 
       },
     },
-    variants: {
-      extend: {},
-    },
-    plugins: [],
-  }
+  },
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"], 
+  plugins: [],
+};

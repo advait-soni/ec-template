@@ -3,7 +3,7 @@ function NavbarItem({ itemName, onClick }) {
     <li>
       <button
         onClick={onClick}
-        className="cursor-pointer font-mono"
+        className="cursor-pointer font-mono hover:underline"
       >
         {itemName}
       </button>
