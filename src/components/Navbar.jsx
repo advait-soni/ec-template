@@ -7,10 +7,12 @@ const items = [
   { item: "Contact", onClick: () => console.log("contact") },
 ]
 
+const navbarBG = "bg-red-200 rounded-lg"
+
 function Navbar() {
   return (
     <nav className="flex justify-center mt-2">
-      <ul className="flex space-x-40 bg-red-200 rounded-lg px-5 py-2">
+      <ul className="flex space-x-40 px-12 py-3">
         {items.map((element, ind) => {
           return (
             <NavbarItem

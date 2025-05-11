@@ -1,9 +1,15 @@
 import Navbar from "../components/Navbar"
+import Card from "../components/Card"
+
+
+
+
 
 function Home() {
   return (
-    <div className="min-h-screen bg-rgb(244, 244, 0)">
+    <div className="min-h-screen flex flex-col items-center">
       <Navbar />
+      
     </div>
   )
 }
