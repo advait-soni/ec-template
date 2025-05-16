@@ -2,9 +2,9 @@ module.exports = {
   darkMode: false, 
   theme: {
     extend: {
-      colors: {
-        lightGray: "rgb(244, 244, 244)", 
-      },
+      fontFamily: {
+        stick: ['Stick', 'sans-serif'],
+      }
     },
   },
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"], 
