@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex pt-20 pb-20 space-x-50 border-t">
+    <div className="flex pt-20 pb-20 space-x-50 border-t border-dashed">
       <ul className="flex flex-col space-y-2">
         <h1 className="text-gray-800">The Everything Store</h1>
         <li className="text-gray-500">All rights reserved</li>
