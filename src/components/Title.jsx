@@ -1,12 +1,17 @@
 function Title({ name }) {
   return (
-    <div className="pt-30 pb-30 w-full h-full flex justify-center bg-pink-50 ">
+    <div
+      style={{
+        backgroundColor: "#",
+      }}
+      className="pt-30 pb-30 w-full h-full flex justify-center "
+    >
       <h1
         style={{
           fontFamily: "Stick",
           fontSize: "50px",
         }}
-        className="text-lg"
+        className="text-lg text-purple-900"
       >
         {name}
       </h1>

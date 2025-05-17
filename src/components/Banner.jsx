@@ -1,7 +1,7 @@
 function Banner(){
     return (
-        <div>
-            Banner
+        <div className="pt-20 pb-20">
+            
         </div>
     )
 }
