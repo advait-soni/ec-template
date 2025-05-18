@@ -4,7 +4,7 @@ function Title({ name }) {
       style={{
         backgroundColor: "#",
       }}
-      className="pt-30 pb-30 w-full h-full flex justify-center "
+      className="pt-20 pb-20  flex justify-center border-t"
     >
       <h1
         style={{

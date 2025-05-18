@@ -11,8 +11,8 @@ const navbarBG = "bg-red-200 rounded-lg"
 
 function Navbar() {
   return (
-    <nav className="flex justify-center mt-2">
-      <ul className="flex space-x-40 px-12 py-3">
+    <nav className=" sticky top-0 flex justify-center mt-2 pb-8 ">
+      <ul className="flex space-x-40 px-12 py-3 ">
         {items.map((element, ind) => {
           return (
             <NavbarItem

@@ -1,21 +1,41 @@
 function Footer() {
   return (
     <div className="flex pt-20 pb-20 space-x-50 border-t border-dashed">
-      <ul className="flex flex-col space-y-2">
-        <h1 className="text-gray-800">The Everything Store</h1>
-        <li className="text-gray-500">All rights reserved</li>
-      </ul>
-      <ul className="flex flex-col space-y-2">
+      <div className="flex flex-col">
+        <h1 className="text-gray-800" key="">
+          The Everything Store
+        </h1>
+        <ul className="flex flex-col space-y-2">
+          <li className="text-gray-500" key="rights">
+            All rights reserved
+          </li>
+        </ul>
+      </div>
+      <div className="flex flex-col">
         <h1 className="text-gray-800">Jobs</h1>
-        <li className="text-gray-500">Openings</li>
-        <li className="text-gray-500">Contact</li>
-      </ul>
-      <ul className="flex flex-col space-y-2">
+        <ul className="flex flex-col space-y-2">
+          <li className="text-gray-500" key="openings">
+            Openings
+          </li>
+          <li className="text-gray-500" key="contact">
+            Contact
+          </li>
+        </ul>
+      </div>
+      <div className="flex flex-col">
         <h1 className="text-gray-800">Company</h1>
-        <li className="text-gray-500">About</li>
-        <li className="text-gray-500">Support</li>
-        <li className="text-gray-500">Mission</li>
-      </ul>
+        <ul className="flex flex-col space-y-2">
+          <li className="text-gray-500" key="about">
+            About
+          </li>
+          <li className="text-gray-500" key="support">
+            Support
+          </li>
+          <li className="text-gray-500" key="mission">
+            Mission
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }
