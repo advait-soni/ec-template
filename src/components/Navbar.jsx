@@ -9,9 +9,9 @@ const items = [
 
 const navbarBG = "bg-red-200 rounded-lg"
 
-function Navbar() {
+function Navbar({ enhanceNav }) {
   return (
-    <nav className=" sticky top-0 flex justify-center mt-2 pb-8 ">
+    <nav className={` sticky top-0 flex justify-center mt-2 pb-8 ` + (enhanceNav ? "border-40" : "")}>
       <ul className="flex space-x-40 px-12 py-3 ">
         {items.map((element, ind) => {
           return (
@@ -19,6 +19,7 @@ function Navbar() {
               itemName={element.item}
               onClick={element.onClick}
               index={ind}
+              key={ind}
             ></NavbarItem>
           )
         })}
